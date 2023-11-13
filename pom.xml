@@ -78,7 +78,7 @@ flexible messaging model and an intuitive client API.</description>
 
   <properties>
 	<sonar.organization>mattiadv03sonar.organization>
-	<sonar.host.url>https://sonarcloud.iosonar.host.url>
+	<sonar.host.url>https://sonarcloud.io<sonar.host.url>
   
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
