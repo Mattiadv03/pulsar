@@ -56,6 +56,9 @@ public abstract class AbstractBatchMessageContainer implements BatchMessageConta
 
     @Override
     public boolean haveEnoughSpace(MessageImpl<?> msg) {
+    	// Modifica per commit
+    	String mattiaDallaValle = "mattiaDallaValle";
+    	
         int messageSize = msg.getDataBuffer().readableBytes();
         return (
             (maxBytesInBatch <= 0 && (messageSize + currentBatchSizeBytes) <= ClientCnx.getMaxMessageSize())
